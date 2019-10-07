@@ -1,0 +1,136 @@
+/* 全体のCSS */
+html{
+  height:100%;
+}
+body{
+  height:100%;
+}
+/* body, #wrapper{
+   display:flex;
+   flex- direction: column;
+   min-height: 100vh;
+}
+
+footer{
+  margin-top:auto;
+} */
+
+
+li {
+  list-style: none;
+}
+/* ヘッダーのCSS */
+
+.header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  color:white;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+.header-logo p{
+  font-size: 20px;
+  float:left;
+  margin: 20px;
+}
+.header-list{
+  float:left;
+  transition: all 0.5s;
+}
+.btn-h:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.header-list li{
+  float:left;
+  /* padding: 0 10px; */
+  /* text-align: center; */
+  line-height: 30px;
+  padding: 5px 25px;
+ color: white;
+ display: block;
+ /* background-color: rgba(240, 240, 240, 0.5); */
+}
+
+a {
+ font-weight:bold;
+ text-decoration:none;
+ color: white;
+}
+
+
+/* メインのCSS */
+.container{
+  height: 500px;
+  margin-top: 80px;
+}
+
+
+
+
+.lesson-box1{
+  background-color: #ffc562;
+  height:400px;
+  width:300px;
+  margin-left: 20px;
+}
+.lesson-box2{
+  background-color: #a0c3f7;
+  height:400px;
+  width:300px;
+  margin-left: 20px;
+}
+.lesson-box3{
+  background-color: #ff8db3;
+  height:400px;
+  width:300px;
+  margin-left: 20px;
+}
+.lesson-box4{
+  background-color: #88e7ce;
+  height:400px;
+  width:300px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+/* フッターのCSS */
+footer{
+  clear: both;
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  color:white;
+  /* float: left; */
+}
+.footer-logo p{
+   font-size: 10px;
+   padding:10px;
+}
+
+.footer-list{
+  float:left;
+  /* display:inline-block; */
+  transition: all 0.5s;
+
+}
+.footer-list li{
+  /* display:inline-block; */
+  float:left;
+  /* padding: 0 10px; */
+  /* text-align: center; */
+  line-height: 30px;
+  padding: 5px 25px;
+ color: white;
+ display: block;
+ /* background-color: rgba(240, 240, 240, 0.5); */
+}
